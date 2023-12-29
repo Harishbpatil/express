@@ -5,8 +5,8 @@ const productsController = require("../controllers/products");
 
 const router = express.Router();
 
-router.get("/", productsController.getContactProduct);
+router.get("/", productsController.getSuccessProduct);
 
-router.post("/contact", productsController.postContactProduct);
+router.post("/success", productsController.postSuccessProduct);
 
 module.exports = router;
